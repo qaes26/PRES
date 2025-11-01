@@ -187,6 +187,18 @@ h1, h2, h4 {
     padding-bottom: 10px;
 }
 
+/* تنسيق الاقتباس للتعريفات */
+.definition {
+    display: block;
+    margin: 20px 0;
+    padding: 15px 20px;
+    border-right: 4px solid var(--secondary-color);
+    background-color: #f0f0f8;
+    color: var(--secondary-color);
+    font-style: italic;
+    font-weight: 600;
+}
+
 .clean-list {
     list-style: none;
     padding-right: 0;
@@ -250,7 +262,7 @@ footer {
     margin-top: 40px;
 }
 
-/* --- 6. تنسيق قسم المقدمة والحقائق الجديدة --- */
+/* --- 6. تنسيق الأقسام المميزة (المقدمة والخصائص) --- */
 .intro-facts-section {
     border-right: 5px solid var(--secondary-color); /* لون مختلف لتمييزه */
 }
@@ -264,38 +276,8 @@ footer {
 
 .intro-paragraph {
     font-size: 1.15em;
-    font-weight: 600;
-    color: #555;
-    padding-bottom: 20px;
-    border-bottom: 1px dashed #ddd;
-    margin-bottom: 25px;
-}
-
-.facts-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-}
-
-.fact-item {
-    background-color: #f7f7f7;
-    padding: 15px;
-    border-radius: 10px;
-    border-top: 5px solid var(--primary-color);
-    transition: all 0.3s ease;
-}
-.fact-item:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-    transform: translateY(-5px);
-}
-.fact-item h4 {
-    margin-top: 0;
-    font-size: 1.1em;
-    color: var(--secondary-color);
-}
-.fact-number {
-    font-size: 1.2em;
-    font-weight: 700;
-    color: var(--primary-color);
-    margin-left: 5px;
+    font-weight: 500;
+    color: #444;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
